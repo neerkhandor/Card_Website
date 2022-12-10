@@ -17,8 +17,8 @@ let a = document.getElementsByTagName('h5')[0];
 a.innerHTML = "This is a card-title : 1"
 
 let z = document.getElementById("card1");
-z.innerText = "<b>id1</b>"
-z.innerHTML = "<i>id1</i>"
+z.innerText = "<b>Card1</b>"
+z.innerHTML = "<i>Card1</i>"
 
 let btn = document.getElementsByClassName("btn-primary")[0]
 btn.style.background = "red"
@@ -47,6 +47,15 @@ btn2.style.color = "red"
 
 let card3 = document.getElementsByClassName("card-3")[0]
 card3.style.border = "2px solid black"
+
+let card_text3 = document.getElementsByClassName("card-text")[2]
+card_text3.innerHTML = "This is card : 3"
+card_text3.style.color = "orange"
+card_text3.style.background = "yellow"
+
+let btn3 = document.getElementsByClassName("btn-primary")[2]
+btn3.style.background = "cyan"
+btn3.style.color = "red"
 
 let ctitles=document.querySelectorAll(".card-title")
 ctitles[0].style.color="pink"
